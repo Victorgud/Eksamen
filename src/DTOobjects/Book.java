@@ -1,7 +1,7 @@
 package DTOobjects;
 
 
-public class Book {
+public class    Book {
 
     // Attributer for Book oprettes
     private long isbn;

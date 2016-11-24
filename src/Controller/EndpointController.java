@@ -25,6 +25,7 @@ public class EndpointController {
         httpExchange.getResponseHeaders().set("Access-Control-Allow-Credentials", "true");
         httpExchange.getResponseHeaders().set("Access-Control-Allow-Origin", configController.getConfig().getAllowOrigin());
         httpExchange.getResponseHeaders().set("Content-Type", "application/json");
+        httpExchange.getResponseHeaders().set("Access-Control-Allow-Headers", "Content-Type");
 
         httpExchange.sendResponseHeaders(200, response.length());
 
