@@ -4,9 +4,9 @@
   "DB_PORT":"3306",
   "DB_NAME":"Brugtbogeksamen",
   "DB_USER":"root",
-  "DB_PASS":"minmor123",
+  "DB_PASS":"",
   "SERVER_PORT":"8000",
   "SSL_KEY":"resources/keystore.jks",
   "SSL_PWD":"brugtbog",
-  "ALLOW_ORIGIN": "http://localhost:63342"
+  "ALLOW_ORIGIN": "https://localhost:63343"
 }
